@@ -23,7 +23,7 @@ app = Client(
 if __name__ == "__main__":
 	app.start() # Not using run as wanna print
 	uname = app.get_me().username
-	print(f"@{uname} Started Successfully!")
+	print(f"Starting Long Polling")
 	idle()
 	app.stop()
 	print("Bot stopped. Alvida!")
